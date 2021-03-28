@@ -1,0 +1,9 @@
+@import '../../../assets/scss/variables.scss';
+
+.cmp-text-field {
+  textarea {
+    border-color: transparent !important;
+    box-shadow: 0 1px 6px 2px $shadow-light-clr;
+    resize: none;
+  }
+}

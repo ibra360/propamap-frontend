@@ -1,0 +1,17 @@
+@import '../../../../assets/scss/variables.scss';
+
+.cmp-signup-form {
+}
+.invalid-message {
+    line-height: 12px !important;
+}
+.cmp-check-box .invalid-message {
+    position: relative;
+    float:left;
+}
+.ant-form-item label{
+	float:left;
+}
+.recap {
+    margin-top: 5px;
+}

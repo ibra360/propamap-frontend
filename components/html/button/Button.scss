@@ -1,0 +1,50 @@
+@import '../../../assets/scss/variables.scss';
+
+.cmp-button {
+  .ant-btn {
+    border-radius: 6px !important;
+  }
+
+  .ant-btn-circle {
+    border-radius: 50% !important;
+  }
+
+  .ant-btn-primary {
+    background-color: $brand-clr;
+    border-color: $brand-clr;
+
+    &:hover,
+    &:focus {
+      background-color: $brand-clr;
+      border-color: $brand-clr;
+    }
+  }
+
+  .ant-btn-success {
+    background-color: $success-clr;
+    border-color: $success-clr;
+    color: $pri-clr;
+  }
+
+  .social-btn-fb {
+    background-color: $fb-clr;
+    border-color: $fb-clr;
+    color: $pri-clr;
+  }
+
+  .social-btn-google {
+    background-color: $google-clr;
+    border-color: $google-clr;
+    color: $pri-clr;
+  }
+
+  .ant-btn-secondary {
+    background-color: $pri-clr;
+    border-color: transparent;
+    box-shadow: 0 1px 6px 2px $shadow-light-clr;
+    color: $base-clr !important;
+  }
+}
+
+.cmp-button-group {
+}

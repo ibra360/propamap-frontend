@@ -1,0 +1,83 @@
+@import "../../../assets/scss/variables.scss";
+
+.cmp-card {
+  .ant-card {
+    border: none;
+    background: none;
+
+    .ant-card-meta-title {
+      font-weight: 600;
+    }
+
+    .ant-card-meta-description {
+      font-size: 10px;
+      font-weight: 600;
+      color: inherit;
+      & > p {
+        height: 24px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .ant-card-cover {
+      img {
+        border-radius: 5px;
+      }
+    }
+
+    .ant-card-body {
+      padding: 15px 0px;
+
+      .hotel-rent-details {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .hotel-rent {
+          .rent {
+            font-size: 14px;
+            color: $brand-clr;
+          }
+          .rent-per-month {
+            font-size: 14px;
+            color: $sec-clr;
+          }
+        }
+
+        .hotel-rating {
+          .ant-rate {
+            font-size: 10px;
+            .ant-rate-star {
+              margin: 0px;
+            }
+          }
+        }
+
+        @media #{$sm-screen} {
+          &.mobile-view {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+        }
+      }
+    }
+
+    .ant-divider-horizontal {
+      margin-top: 12px;
+      margin-bottom: 5px;
+    }
+
+    .card-footer {
+      font-size: 12px;
+      .icon-img {
+        height: 15px !important;
+        padding-right: 8px;
+      }
+      .available-quantity {
+        vertical-align: text-top;
+      }
+    }
+  }
+}

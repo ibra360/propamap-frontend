@@ -1,0 +1,42 @@
+@import "../../../assets/scss/variables.scss";
+
+.cmp-search-form {
+  input[type="text"] {
+    padding-top: 19px !important;
+    padding-bottom: 19px !important;
+  }
+
+  .cmp-search-location {
+    input[type="text"] {
+      width: 100%;
+      border-radius: 4px;
+      border-color: transparent !important;
+      box-shadow: 0 1px 6px 2px $shadow-light-clr;
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+    }
+  }
+
+  .google-places-autocomplete__input {
+    margin-bottom: 0px !important;
+  }
+
+  .ant-typography {
+    margin-bottom: 0;
+  }
+
+  .search-greetings {
+    padding-bottom: 15px;
+  }
+
+  .filters-button {
+    background-color: #e34c6b;
+    border-color: #e34c6b;
+  }
+}
+.a{
+  color: antiquewhite !important;
+}
+// .Mod{
+//   margin-top: 0%;
+// }

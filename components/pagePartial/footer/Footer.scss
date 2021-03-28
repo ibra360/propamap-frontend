@@ -1,0 +1,46 @@
+@import '../../../assets/scss/variables.scss';
+
+.cmp-footer {
+  padding: 8px 0px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  @media #{$sm-screen} {
+    flex-direction: column;
+  }
+
+  .footer-item {
+    align-self: center;
+    padding: 0px 20px;
+
+    @media #{$sm-screen} {
+      align-self: flex-start;
+      padding-bottom: 8px;
+    }
+
+    .footer-link {
+      display: inline-block;
+      padding: 0 8px;
+      @media #{$sm-screen} {
+        display: inline-block;
+        padding: 0 4px;
+      }
+      a {
+        font-weight: 600;
+        color: $base-clr;
+      }
+    }
+  }
+
+  .download-links {
+    @media #{$sm-screen} {
+      display: flex;
+      justify-content: space-between !important;
+    }
+    .download-img {
+      height: 32px;
+    }
+  }
+}

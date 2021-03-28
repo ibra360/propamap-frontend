@@ -1,0 +1,40 @@
+@import '../../../assets/scss/variables.scss';
+
+.cmp-img-slider {
+  .carousel {
+    &.carousel-slider {
+      max-height: 400px;
+      border-radius: 8px;
+
+      img {
+        max-height: 400px;
+      }
+    }
+    .thumbs-wrapper {
+      margin-left: 0px;
+      .thumbs {
+        .thumb {
+          padding: 0px;
+          height: 45px;
+          overflow: hidden;
+          border-radius: 8px;
+          // border-radius: 4px;
+          &.selected,
+          &:hover {
+            border: 2px solid $brand-clr !important;
+            border-radius: 8px;
+          }
+          img {
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+    .control-next.control-arrow:before {
+      border-left: 8px solid $base-clr;
+    }
+    .control-prev.control-arrow:before {
+      border-right: 8px solid $base-clr;
+    }
+  }
+}

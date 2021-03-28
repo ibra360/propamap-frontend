@@ -1,0 +1,107 @@
+@import '~antd/dist/antd.css', './variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Ubuntu|Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Fira Sans', 'Ubuntu', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  color: $base-clr;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  position: relative;
+}
+
+.icon {
+  width: 14px;
+  margin-right: 10px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.ant-drawer-content-wrapper {
+  @media #{$md-up-screen} {
+    width: 400px !important;
+  }
+
+  @media #{$sm-screen} {
+    width: 100%;
+  }
+}
+
+.fancy {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid $base-clr;
+  line-height: 0.1em;
+  margin: 20px 0 20px;
+}
+
+.fancy span {
+  background: $pri-clr;
+  padding: 0 10px;
+}
+
+.add-button {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 24px;
+}
+
+.g-recaptcha {
+  transform: scale(0.85);
+  transform-origin: left top;
+}
+
+.ant-calendar-picker {
+  width: 100%;
+  .ant-calendar-picker-input {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+.subscribe {
+  .ant-checkbox + span {
+    font-size: x-small;
+  }
+}
+
+label {
+  font-weight: 600;
+  display: block !important;
+  margin-bottom: 0.5rem;
+}
+
+.invalid-message {
+  width: 100%;
+  margin-top: 0.25rem !important;
+  font-size: 80%;
+  color: $error-clr;
+  position: absolute;
+}
+
+small[id*='HelpBlock'] {
+  display: block;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.ant-switch-checked {
+  background-color: $brand-clr !important;
+}
+
+.cmp-property-form .ant-select-lg .ant-select-selection--single, .cmp-property-form .cmp-select-box .ant-select-lg{
+  height: 48px;
+}

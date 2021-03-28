@@ -1,0 +1,21 @@
+@import '../../../assets/scss/variables.scss';
+
+.cmp-card-slider {
+  .horizontal-menu {
+    width: 100%;
+
+    .menu-item {
+      padding: 15px;
+      user-select: none;
+      cursor: pointer;
+      border: none;
+    }
+
+    .ant-card-cover {
+      img {
+        width: 200px !important;
+        height: 149px !important;
+      }
+    }
+  }
+}

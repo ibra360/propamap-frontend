@@ -1,0 +1,19 @@
+@import "../../../../assets/scss/variables.scss";
+
+.cmp-login-form {
+  .socialLoginRow {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .ant-btn-lg {
+    font-size: 11px !important;
+  }
+}
+@media (max-width: 359px) {
+  .ant-btn-lg {
+    font-size: 8px !important;
+  }
+}

@@ -1,0 +1,23 @@
+@import '../../../assets/scss/variables.scss';
+
+.cmp-view-page-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+
+  .created {
+    display: flex;
+    align-items: center;
+    font-size: 0.819em;
+
+    .created-at {
+      display: flex;
+      justify-content: flex-end;
+      color: $pri-clr;
+    }
+
+    .avatar {
+      padding-left: 5px;
+    }
+  }
+}

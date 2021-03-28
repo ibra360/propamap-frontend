@@ -1,0 +1,32 @@
+@import '../../../assets/scss/variables.scss';
+
+
+    .thumbnailContain{
+        display: flex;
+        justify-content: center;
+    .thumbnail {
+        height: 40px;
+        width: 50px;
+        border-radius: 10px;
+    }
+}
+
+.description{
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.price{
+    margin: 0px;
+    color: $brand-clr;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.arrowContain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}

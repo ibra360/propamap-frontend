@@ -1,0 +1,51 @@
+@import "../../assets/scss/variables.scss";
+
+.main-layout {
+  .layout-sider {
+    overflow: auto;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    z-index: 101;
+  }
+  .line {
+    line-height: 2 !important;
+  }
+  .logo {
+    height: 48px;
+  }
+
+  .layout-header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+    background: $pri-clr !important;
+    padding: 0px !important;
+
+    &.ant-layout-header {
+      box-shadow: 0 2px 12px -3px $shadow-light-clr;
+    }
+  }
+
+  .layout-content {
+    background: $pri-clr;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+
+    [class*="page-"] {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+
+  .layout-footer {
+    background: $pri-clr;
+    border-top: 1px solid $border-clr;
+    padding: 0px !important;
+  }
+  .ant-alert-description {
+    text-align: center;
+  }
+}

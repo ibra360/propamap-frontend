@@ -1,0 +1,60 @@
+@import '../../../assets/scss/variables.scss';
+
+.cmp-map-container {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+
+  .map-search-form {
+    position: absolute;
+    top: 2%;
+    z-index: 2;
+    width: 50%;
+    margin-left: -25%;
+    left: 50%;
+
+    .ant-form {
+      box-shadow: 0 2px 12px -3px $shadow-light-clr;
+      padding: 10px;
+      background: $pri-clr;
+      border-radius: 10px;
+
+      input[type='text'] {
+        box-shadow: none;
+        padding-top: 5px !important;
+        padding-bottom: 0 !important;
+        border-color: transparent;
+      }
+    }
+
+    @media #{$sm-screen} {
+      width: 100%;
+      margin-left: -50%;
+    }
+  }
+
+  .mobile-view {
+    display: none;
+
+    @media #{$sm-screen} {
+      display: block;
+    }
+  }
+
+  .list-view {
+    display: block;
+
+    @media #{$sm-screen} {
+      display: none;
+    }
+  }
+
+  .show-map-btn {
+    position: absolute;
+    bottom: 10%;
+    z-index: 2;
+    width: 75%;
+    margin-left: -37.5%;
+    left: 50%;
+  }
+}

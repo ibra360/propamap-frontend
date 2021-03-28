@@ -1,0 +1,95 @@
+@import '../../../assets/scss/variables.scss';
+
+.cmp-property-form {
+  margin-top: 18px;
+  .students-checkbox {
+    border-color: transparent !important;
+    box-shadow: 0 1px 6px 2px $shadow-light-clr;
+    padding-top: 14px !important;
+    padding-bottom: 15px !important;
+    padding-left: 12px;
+    border-radius: 4px;
+  }
+  .cmp-search-location {
+    input[type='text'] {
+      width: 100%;
+      border-radius: 4px;
+      border-color: transparent !important;
+      box-shadow: 0 1px 6px 2px $shadow-light-clr;
+      padding-top: 14px !important;
+      padding-bottom: 14px !important;
+    }
+  }
+  .add-more {
+    color: $brand-clr;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: right;
+  }
+  .features-title {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+  }
+  .feature-option {
+    display: inline-flex;
+    width: 100%;
+    justify-content: inherit;
+  }
+  .feature-label {
+    // align-self: flex-start;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-right: 15px;
+  }
+  .feature-input {
+    // align-self: flex-end;
+    // text-align: right;
+    margin-right: 4px;
+    .icon {
+      margin-right: 0px;
+      line-height: 1.5;
+    }
+    .feature-value {
+      margin: 4px;
+      padding: 6px;
+      font-size: 16px;
+      font-weight: 600;
+      display: inline-block;
+    }
+  }
+  .feature-additional.options {
+    margin-top: 5px;
+  }
+  .feature-checkbox {
+    font-size: 12px;
+    font-weight: 600;
+    width: 100%;
+    border-radius: 4px;
+    border-color: transparent;
+    padding-left: 14px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    box-shadow: 0 1px 6px 2px $shadow-light-clr;
+    .ant-checkbox-wrapper {
+      margin-left: 10px;
+      span {
+        font-size: 10px;
+        font-weight: 900;
+      }
+    }
+  }
+  .privacy-policy-checkbox {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .property-submit-btn {
+    padding: 0 20px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .marginBottom {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,22 @@
+.messageSplash {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .splash {
+    text-align: center;
+    padding: 100px;
+    .image {
+      width: 240px;
+      margin-bottom: 40px;
+    }
+    .heading {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    .text {
+      color: #7a7a7a;
+    }
+  }
+}

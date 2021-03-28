@@ -1,0 +1,38 @@
+@import '../../../assets/scss/variables.scss';
+
+.cmp-text-box {
+  position: relative;
+  input[type='url'],
+  input[type='text'],
+  input[type='email'],
+  input[type='number'],
+  .ant-input-number,
+  input[type='password'] {
+    border-color: transparent !important;
+    box-shadow: 0 1px 6px 2px $shadow-light-clr;
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+  }
+
+  .ant-input-affix-wrapper {
+    &:hover {
+      .ant-input {
+        border-color: transparent;
+      }
+    }
+  }
+
+  .ant-input-number {
+    width: 100%;
+    height: auto;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+  }
+}
+
+.navbar-search {
+  input[type='text'] {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+  }
+}

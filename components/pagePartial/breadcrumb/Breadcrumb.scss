@@ -1,0 +1,19 @@
+@import "../../../assets/scss/variables.scss";
+
+.breadcrumb-top {
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 90%;
+  @media #{$md-screen} {
+    margin-top: 46px !important;
+  }
+  span {
+    cursor: default;
+  }
+}
+// @media (max-width: 722px) {
+//   .breadcrumb-top {
+//     margin-top: 46px !important;
+//   }
+// }

@@ -1,0 +1,79 @@
+@import "../../../assets/scss/variables.scss";
+
+.subscription {
+  width: 90%;
+  margin: 0 auto;
+  .table {
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08), 0 6px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    font-weight: 600;
+    margin: 40px 0;
+    & > div {
+      width: 25%;
+      padding: 20px;
+      padding-top: 0;
+      .title {
+        font-size: 18px;
+        border-bottom: 1px solid #f4f4f4;
+        height: 82px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .item {
+        padding: 16px 0;
+        border-bottom: 1px solid #f4f4f4;
+        &:last-child {
+          padding-bottom: 0;
+          border: none;
+        }
+      }
+      &.heading {
+        background-color: #fff;
+        border-radius: 15px 0 0 15px;
+      }
+      &.plan {
+        background-color: #f5f5f5;
+        text-align: center;
+        cursor: pointer;
+        .title,
+        .item {
+          border-color: #dadada;
+        }
+        .purchase {
+          display: none;
+        }
+        &:last-child {
+          border-radius: 0 15px 15px 0;
+        }
+        &.active {
+          background-color: #5c72e3;
+          color: #fff;
+          border-radius: 15px;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08),
+            0 6px 6px rgba(0, 0, 0, 0.1);
+          transform: scale(1.15);
+          transition: 0.3s ease-out;
+          .content {
+            transform: scale(0.9);
+            // margin-top: -32px;
+          }
+          .title,
+          .item {
+            border-color: #8d95ff;
+          }
+          .purchase {
+            display: block;
+            button {
+              background-color: #fff;
+              border: none;
+              color: #4f3ce2;
+              // margin-top: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

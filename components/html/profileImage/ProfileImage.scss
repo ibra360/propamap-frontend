@@ -1,0 +1,55 @@
+.cmp-profile-img {
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+  .profile-img {
+    & > div {
+      height: 164px;
+      width: 164px;
+      overflow: hidden;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    margin-right: 40px;
+  }
+  .actions {
+    display: flex;
+    .cmp-button {
+      &:first-child {
+        button {
+          background-color: #878787;
+          border-color: #878787;
+        }
+      }
+    }
+  }
+  .cmp-button {
+    margin-right: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cmp-profile-img {
+    flex-direction: column;
+  }
+  .actions {
+    margin-top: 20px;
+  }
+}
+
+.custom-file-input {
+  padding: 10px;
+  background-color: #4f3ce2;
+  display: table;
+  color: #fff;
+  width: 100px;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 0;
+  input {
+    display: none !important;
+  }
+}

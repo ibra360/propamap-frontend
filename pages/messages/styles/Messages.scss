@@ -1,0 +1,29 @@
+@import "../../../assets/scss/variables.scss";
+
+.messages {
+  width: 90%;
+  margin: 0 auto;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  .message-row {
+    width: 100%;
+    // flex-grow: 1;
+    display: flex;
+    align-items: stretch;
+    max-height: 82vh;
+    .sidebar-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .messages-container,
+    .splash-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .messages-container ,.splash-container {
+      margin-left: 20px;
+    }
+  }
+}
+

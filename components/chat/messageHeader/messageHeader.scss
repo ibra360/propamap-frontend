@@ -1,0 +1,79 @@
+@import "../../../assets/scss/variables.scss";
+
+.avatarContain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .back {
+    height: 12px;
+  }
+  .avatar {
+      position: relative;
+      right: 10px;
+    height: 45px;
+    width: 55px;
+    border-radius: 7px;
+  }
+}
+
+.descriptionContain {
+    padding-left: 0px !important;
+    .description {
+        font-weight: bold;
+        margin: 0px;
+    }
+    .time{
+      margin: 0px;
+      font-size: 12px;
+    }
+}
+.priceContain{
+  .price{
+    margin: 0px;
+    color: $brand-clr;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+  }
+  .type{
+    margin: 0px;
+    color: $brand-clr;
+    font-size: 14px;
+    text-align: right;
+  }
+}
+
+.userAvatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.userInfo{
+  .username{
+    margin: 0px;
+    font-weight: bold;
+  }
+  .year{
+    margin: 0px;
+    font-size: 11px;
+    color: $brand-clr;
+    font-weight: bold;
+  }
+  .time{
+    margin: 0px;
+    font-size: 11px;
+  }
+}
+
+.divider {
+  height: 1px;
+  background-color: #dce2e8;
+  padding: 0px !important;
+  margin-left: 16px;
+}
+
+.open {
+  font-weight: bold;
+  margin-top: 20px;
+}

@@ -1,0 +1,106 @@
+@import "../../../assets/scss/variables.scss";
+
+.avatarContain {
+  display: flex;
+  align-items: center;
+  padding: 14px !important;
+  .back {
+    height: 12px;
+  }
+  .avatar {
+    position: relative;
+    height: 45px;
+    width: 55px;
+    border-radius: 7px;
+    margin-right: 20px;
+  }
+}
+.pointer {
+  cursor: pointer !important;
+}
+.avatar-demo {
+  background-color: palevioletred !important;
+  height: 45px !important;
+  width: 45px !important;
+  border-radius: 50% !important;
+  font-size: 2em !important;
+  color: #ffffff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.descriptionContain {
+  .description {
+    font-weight: bold;
+    margin: 0px;
+  }
+  .time {
+    margin: 0px;
+    font-size: 12px;
+  }
+}
+.header-avatar {
+  display: flex;
+  justify-content: flex-end;
+  .avatar-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .avatar {
+      height: 36px;
+      width: 36px;
+      border-radius: 50%;
+      text-align: center;
+      overflow: hidden;
+      position: relative;
+      margin-bottom: 4px;
+      img {
+        max-width: 100%;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+    }
+    .name {
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
+}
+
+.userAvatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.userInfo {
+  .username {
+    margin: 0px;
+    font-weight: bold;
+  }
+  .year {
+    margin: 0px;
+    font-size: 11px;
+    color: $brand-clr;
+    font-weight: bold;
+  }
+  .time {
+    margin: 0px;
+    font-size: 11px;
+  }
+}
+
+.divider {
+  height: 1px;
+  background-color: #dce2e8;
+  padding: 0px !important;
+}
+
+.open {
+  font-weight: bold;
+  margin-top: 20px;
+}

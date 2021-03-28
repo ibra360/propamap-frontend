@@ -1,0 +1,25 @@
+@import '../../../assets/scss/variables.scss';
+
+.cmp-select-box {
+  .ant-select-selection {
+    border-color: transparent !important;
+    box-shadow: 0 1px 6px 2px $shadow-light-clr;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+
+    &.ant-select-selection--single {
+      height: auto;
+    }
+  }
+
+  .ant-select-lg {
+    font-size: 14px;
+    .ant-select-selection {
+      padding-top: 5px !important;
+      padding-bottom: 5px !important;
+    }
+  }
+  .cross-hidden .ant-select-selection__clear {
+    display: none;
+  }
+}

@@ -1,0 +1,128 @@
+@import "../../../assets/scss/variables.scss";
+.badge.badge-light {
+  background: #4f3ce2;
+  padding: 0.25em 0.4em;
+  border-radius: 50%;
+  color: #fff;
+}
+.parent {
+  display: flex;
+  width: 100%;
+  padding-top: 7px !important;
+}
+.searchIcon {
+  line-height: 0 !important;
+  display: flex;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+.ant-modal {
+  width: 560px !important;
+}
+.partial-top-nav {
+  width: 90%;
+  margin: 0 auto;
+
+  .ant-menu-horizontal {
+    border-bottom: none !important;
+  }
+
+  .brand-logo {
+    height: 48px;
+  }
+
+  .navbar-search {
+    @media #{$md-up-screen} {
+      width: 400px !important;
+    }
+
+    .hidden {
+      display: none;
+    }
+  }
+
+  .ant-menu {
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+
+    .menu-item-icon {
+      position: relative;
+      top: 4px;
+    }
+  }
+
+  .ant-menu-submenu-open {
+    color: $brand-clr !important;
+  }
+
+  .menu-collapse-trigger {
+    font-size: 18px;
+    padding: 0 12px;
+    margin: 0 12px;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $brand-clr;
+    }
+  }
+
+  .icon {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.ant-menu-submenu-selected {
+  color: $brand-clr !important;
+  background-color: $transparent-clr !important;
+  border-bottom: none !important;
+}
+
+.ant-menu-item-selected {
+  border-bottom: none !important;
+  color: $brand-clr !important;
+  background-color: $transparent-clr !important;
+
+  a {
+    color: $brand-clr !important;
+  }
+
+  &:hover {
+    border-bottom: none !important;
+    cursor: default;
+    color: $brand-clr !important;
+    a {
+      color: $brand-clr !important;
+    }
+  }
+}
+
+.ant-menu-item,
+.ant-menu-submenu,
+.ant-menu-submenu-title {
+  border-bottom: none !important;
+
+  &:hover {
+    border-bottom: none !important;
+    cursor: default;
+    color: $brand-clr !important;
+    a {
+      color: $brand-clr !important;
+    }
+  }
+}
+
+.ant-menu-sub {
+  text-align: center !important;
+}
+
+.plans {
+  font-weight: 500;
+  font-size: 18px;
+}

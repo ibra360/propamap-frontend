@@ -1,0 +1,12 @@
+@import '../../../assets/scss/variables.scss';
+
+.add-more.disabled {
+  color: $form-text-clr !important;
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+.marginBottom {
+  margin-bottom: 10px;
+}
+

@@ -1,0 +1,46 @@
+@import "../../../assets/scss/variables.scss";
+
+.settings-screen {
+  width: 90%;
+  margin: 0 auto;
+  .side-tabs {
+    & > .ant-tabs-bar {
+      border: none;
+      width: 248px;
+      .ant-tabs-nav {
+        .ant-tabs-tab {
+          text-align: left;
+          &:hover {
+            color: #566ce2;
+          }
+          &.ant-tabs-tab-active {
+            border-left: none;
+            color: rgba(0, 0, 0, 0.75);
+            font-weight: 600;
+          }
+        }
+        .ant-tabs-ink-bar {
+          left: 0;
+          background-color: #566ce2;
+        }
+      }
+    }
+    .ant-tabs-content {
+      border: none;
+    }
+  }
+  @media (max-width: 991px) {
+    .side-tabs {
+      .ant-tabs-bar {
+        // border: none;
+        width: auto;
+      }
+    }
+  }
+}
+
+// .validate-btn {
+//   position: absolute;
+//   top: 46px;
+//   right: 18px;
+// }

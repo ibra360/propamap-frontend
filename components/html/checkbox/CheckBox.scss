@@ -1,0 +1,8 @@
+@import '../../../assets/scss/variables.scss';
+
+.cmp-check-box {
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: $brand-clr !important;
+    border-color: $brand-clr !important;
+  }
+}
