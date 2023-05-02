@@ -1,3 +1,3 @@
 # propamap-frontend
-Frontend nextjs application of propamap..
+Frontend Nextjs application of propamap
 .
